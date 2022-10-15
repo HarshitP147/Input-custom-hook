@@ -1,4 +1,5 @@
 import BasicForm from "./components/BasicForm";
+import Check from "./components/Check";
 
 export default function App() {
     return (
@@ -8,6 +9,7 @@ export default function App() {
             </h1>
             <div className="justify-center flex mt-8">
                 <BasicForm />
+                {/* <Check /> */}
             </div>
         </>
     );
